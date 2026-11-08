@@ -1,0 +1,75 @@
+name: 🐛 Bug report
+description: Something does not work as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! ⚠️ **Never paste API keys, tokens, passwords or your `.env` file.** Replace any secret with `***`.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem in a few sentences.
+      placeholder: "The bot started but no post was published at 08:00."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `python poster_bot.py`
+        2. Wait until 08:00
+        3. See error in logs/posts.log
+    validations:
+      required: true
+  - type: dropdown
+    id: script
+    attributes:
+      label: Which script?
+      options:
+        - poster_bot.py
+        - weekly_report.py
+        - Both / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Paste the relevant lines from `logs/posts.log` (remove any secrets).
+      render: shell
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.11"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Raspberry Pi
+        - Cloud / server
+        - Other
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I ran `python poster_bot.py --check`.
+        - label: I removed all secrets (keys, tokens, passwords) from this report.
+          required: true

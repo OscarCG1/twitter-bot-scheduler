@@ -1,0 +1,38 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: "I would like to skip posting on weekends."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Your proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Would this spend more API credits?
+      description: Features that cost more (links, images) must stay optional and off by default.
+      options:
+        - "No"
+        - "Yes"
+        - Not sure
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contribution
+      options:
+        - label: I would like to try implementing this myself.

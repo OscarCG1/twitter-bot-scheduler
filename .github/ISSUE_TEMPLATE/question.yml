@@ -1,0 +1,26 @@
+name: ❓ Question / help
+description: Stuck with setup or usage? Ask here.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        No question is too basic. ⚠️ **Never paste API keys, tokens, passwords or your `.env` file.**
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried so far?
+      placeholder: "I followed docs/SETUP.md up to step 5..."
+  - type: checkboxes
+    id: docs
+    attributes:
+      label: Before asking
+      options:
+        - label: I read the README FAQ and the docs/ folder.
