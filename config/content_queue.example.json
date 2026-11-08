@@ -1,0 +1,48 @@
+{
+  "account_handle": "@YOUR_HANDLE",
+  "last_updated": "",
+  "total_spend_usd": 0.0,
+  "posts_today": 0,
+  "last_post_date": "",
+  "error_402_week": false,
+  "queue": [
+    {
+      "id": "post_001",
+      "text": "Your first scheduled tweet here. Keep it under 280 characters.",
+      "pillar": 1,
+      "type": "single",
+      "created_at": "",
+      "scheduled_for": ""
+    },
+    {
+      "id": "post_002",
+      "text": "Quick question for you: what is the one habit that changed your week? Reply below.",
+      "pillar": 2,
+      "type": "question",
+      "created_at": "",
+      "scheduled_for": ""
+    },
+    {
+      "id": "post_003",
+      "type": "thread",
+      "pillar": 3,
+      "thread": [
+        "A short thread about something you know well (1/3)",
+        "Second point, still under 280 characters (2/3)",
+        "Wrap-up and a gentle call to action (3/3)"
+      ],
+      "created_at": "",
+      "scheduled_for": ""
+    },
+    {
+      "id": "post_004",
+      "text": "Check out my favorite tool: https://example.com (this one goes to the manual queue automatically)",
+      "pillar": 4,
+      "type": "single",
+      "created_at": "",
+      "scheduled_for": ""
+    }
+  ],
+  "manual_queue": [],
+  "published": []
+}

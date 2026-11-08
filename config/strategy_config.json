@@ -1,0 +1,32 @@
+{
+  "account_handle": "@YOUR_HANDLE",
+  "persona_description": "Brief description of your persona/character",
+  "content_pillars": [
+    {"id": 1, "name": "Pillar 1 name", "description": "What this pillar covers", "emoji": "🎯"},
+    {"id": 2, "name": "Pillar 2 name", "description": "What this pillar covers", "emoji": "💡"},
+    {"id": 3, "name": "Pillar 3 name", "description": "What this pillar covers", "emoji": "🔥"},
+    {"id": 4, "name": "Pillar 4 name", "description": "What this pillar covers", "emoji": "📱"},
+    {"id": 5, "name": "Pillar 5 name", "description": "What this pillar covers", "emoji": "🌟"},
+    {"id": 6, "name": "Pillar 6 name", "description": "What this pillar covers", "emoji": "🎭"}
+  ],
+  "pillar_rotation_index": 0,
+  "post_mix": {
+    "single_tweet_pct": 60,
+    "thread_pct": 25,
+    "question_pct": 15,
+    "cta_every_n_posts": 12
+  },
+  "max_hashtags_per_post": 2,
+  "max_tweet_chars": 280,
+  "tone_guidelines": "Describe your tone here: sarcastic, formal, casual, etc.",
+  "red_lines": [
+    "Never mock [topic 1]",
+    "No invented facts or quotes",
+    "No @mentions",
+    "No sexual content"
+  ],
+  "style_examples": [
+    "Example tweet in your style 1",
+    "Example tweet in your style 2"
+  ]
+}

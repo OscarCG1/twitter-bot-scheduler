@@ -1,0 +1,9 @@
+.env
+logs/*.log
+logs/*.json
+logs/*.md
+config/content_queue.json
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
