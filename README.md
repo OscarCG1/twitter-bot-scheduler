@@ -167,6 +167,8 @@ twitter-bot-scheduler/
 ├── requirements.txt                ← Python dependencies
 ├── .env.example                    ← template for your private settings (.env)
 ├── .gitignore                      ← keeps secrets and logs out of git
+├── CONTRIBUTING.md                 ← how to report bugs and contribute
+├── .github/                        ← issue and pull request templates
 ├── poster_bot.py                   ← agent 1: daily posting
 ├── weekly_report.py                ← agent 2: Monday report
 ├── config/
@@ -197,6 +199,13 @@ Not with this bot, on purpose: they are much more expensive on the pay-per-use A
 **5. Do I have to keep my computer on?**
 Yes, if you run it on your computer. For 24/7 posting, run it on a server, a Raspberry Pi or a cloud scheduler (see section 8).
 
-## 12. License
+## 12. Contributing & support
+
+Found a bug, have an idea or got stuck? Open an issue in the **[Issues](https://github.com/OscarCG1/twitter-bot-scheduler/issues/new/choose)** tab and pick a template (*Bug report*, *Feature request* or *Question*).
+Want to improve the code or docs? Read **[CONTRIBUTING.md](CONTRIBUTING.md)** — it explains, step by step, how to make your first pull request.
+
+> ⚠️ Never paste your `.env`, API keys or tokens in an issue: issues are public.
+
+## 13. License
 
 MIT License. See [LICENSE](LICENSE). Use it, modify it, share it.

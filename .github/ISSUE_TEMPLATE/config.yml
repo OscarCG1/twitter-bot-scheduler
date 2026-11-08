@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Setup guide (X API)
+    url: https://github.com/OscarCG1/twitter-bot-scheduler/blob/main/docs/SETUP.md
+    about: Step-by-step guide to get your X API credentials.
+  - name: 🛠️ Customization guide
+    url: https://github.com/OscarCG1/twitter-bot-scheduler/blob/main/docs/CUSTOMIZATION.md
+    about: Change times, topics, tone and budget.
